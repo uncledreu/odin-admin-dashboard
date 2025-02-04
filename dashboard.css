@@ -1,0 +1,90 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --icon-color: white;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 15%) repeat(1, 85%);
+}
+
+.sidebar{
+    height: 100vh;
+    background-color:dodgerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main{
+    height: 100vh;
+    background-color:beige;
+}
+
+/* sidebar */
+
+.pageLogo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+}
+
+.pageLogo svg{
+    max-height: 50px;
+    max-width: 50px;
+    fill: var(--icon-color)
+}
+
+.logoText{
+    font-size: 2rem;
+}
+
+.logoTextBox{
+    text-align: center;
+    margin-top:7px;
+}
+
+.iconsSet1 svg, .iconsSet2 svg{
+    max-height: 19.2px;
+    max-width: 19.2px;
+    fill: var(--icon-color)
+}
+
+.iconsSet1 div, .iconsSet2 div{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+.iconsSet1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pageLogo{
+    margin-left: 25px;
+}
+
+.iconsSet1, .iconsSet2{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
