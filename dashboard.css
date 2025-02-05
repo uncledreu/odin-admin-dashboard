@@ -116,14 +116,14 @@ a {
 }
 
 .profilePic img {
-    height: 80px;
-    max-width: 80px;
+    height: 85px;
+    width: 85px;
     border-radius: 50px;
 }
 
 .box1 img{
-    height: 50px;
-    max-width: 50px;
+    height: 55px;
+    max-width: 55px;
     border-radius: 50px;
     display: block;
 
@@ -136,7 +136,7 @@ a {
 }
 
 .search{
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .profile{
